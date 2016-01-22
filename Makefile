@@ -17,5 +17,5 @@ build.js: jspm_packages
 	npm run bundle
 
 clean:
-	`npm bin`/jspm install
+	`npm bin`/jspm unbundle
 	rm -rf node_modules jspm_packages build.sfx.js* build.js*
