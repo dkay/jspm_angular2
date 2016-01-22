@@ -1,5 +1,5 @@
 import 'reflect-metadata'
 import {bootstrap} from 'angular2/platform/browser'
-import {RootComponent} from './root.component'
+import {HelloAngularComponent} from './hello-angular.component'
 
-bootstrap(RootComponent, []);
+bootstrap(HelloAngularComponent, []);

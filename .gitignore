@@ -1,4 +1,4 @@
 node_modules
 jspm_packages
-bundle.js
-bundle.sfx.js
+build.js*
+build.sfx.js*
